@@ -19,7 +19,7 @@ const App = ()=>{
         setLoader2(true);
         setTimeout(() => {
           setLoader2(false);
-          setMainWebmail(true)
+          setMainWebmail(true);
         }, 4000);
     }, []);
 
